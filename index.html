@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="flexContainer">
+    <div class="colorIndicator"></div>
+    <div class="colorSelector">
+      <label for="colorType" class="hidden">Color Format:</label>
+      <select name="colorType" id="colorType">
+        <option value="hex">hex</option>
+        <option value="rgb">rgb</option>
+        <option value="hsl">hsl</option>
+        <option value="cmyk">cmyk</option>
+      </select>
+    </div>
+    <button>Get color scheme</button>
+  </header>
+  <main class="flexWrapper">
+    <div class="col col1">
+      <div class="color-bar"></div>
+      <div class="color-number">#F55A5A</div>
+    </div>
+    <div class="col col2">
+      <div class="color-bar"></div>
+      <div class="color-number">#2B283A</div>
+    </div>
+    <div class="col col3">
+      <div class="color-bar"></div>
+      <div class="color-number">#FBF3AB</div>
+    </div>
+    <div class="col col4">
+      <div class="color-bar"></div>
+      <div class="color-number">#AAD1B6</div>
+    </div>
+    <div class="col col5">
+      <div class="color-bar"></div>
+      <div class="color-number">#A626D3</div>
+    </div>
+  </main>
+</body>
+</html>

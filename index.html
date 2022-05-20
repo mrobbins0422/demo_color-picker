@@ -12,17 +12,24 @@
 </head>
 <body>
   <header class="flexContainer">
-    <div class="colorIndicator"></div>
-    <div class="colorSelector">
-      <label for="colorType" class="hidden">Color Format:</label>
-      <select name="colorType" id="colorType">
-        <option value="hex">hex</option>
-        <option value="rgb">rgb</option>
-        <option value="hsl">hsl</option>
-        <option value="cmyk">cmyk</option>
+
+
+    <input type="color" value="#ff0000" id="colorPicker">
+
+
+    <div class="modeSelectDropdown">
+      <label for="colorModeSelect" class="hidden">Color Mode:</label>
+      <select name="colorModeSelect" id="colorMode">
+        <option value="Monochrome">Monochrome</option>
+        <option value="Monochrome-dark">Monochrome-dark</option>
+        <option value="Monochrome-light">Monochrome-light</option>
+        <option value="Analogic">Analogic</option>
+        <option value="Complement">Complement</option>
+        <option value="Analogic-complement">Analogic-complement</option>
+        <option value="Triad">Triad</option>
       </select>
     </div>
-    <button>Get color scheme</button>
+    <button class="getButton">Get color scheme</button>
   </header>
   <main class="flexWrapper">
     <div class="col col1">

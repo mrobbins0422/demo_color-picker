@@ -60,7 +60,7 @@ body {
   border: 1px solid green;
   margin: 1rem;
 }
-header {
+header.flexContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -69,9 +69,9 @@ header {
   padding: 1rem;
   border: 1px solid blue;
 }
-.colorIndicator {
-  width: 100px;
-  height: 75px;
+#colorPicker {
+  width: 51px;
+  height: 34px;
   background-color: #F55A5A;
   border: 5px solid gray;
 }
